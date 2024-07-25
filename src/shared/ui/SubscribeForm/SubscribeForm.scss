@@ -1,0 +1,31 @@
+.subscribe-form {
+  border-radius: 20rem;
+  max-width: 420rem;
+  width: 100%;
+  background: var(--text);
+  display: flex;
+  gap: 12rem;
+  align-items: center;
+
+  &__input {
+    border: none;
+    outline: none;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 140%;
+    color: var(--background);
+    padding: 0 20rem;
+  }
+
+  &__btn {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16rem;
+    line-height: 140%;
+    color: var(--text);
+    padding: 19rem 50rem;
+    border-radius: 20rem;
+    background: var(--call-to-action);
+  }
+}

@@ -1,0 +1,48 @@
+.footer {
+  background: var(--background---secondary);
+  padding: 40rem 0;
+  &__group {
+    max-width: 987rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 22rem;
+    line-height: 160%;
+    margin-bottom: 5rem;
+  }
+  &__text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 140%;
+    color: var(--c-secondary);
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  &__copyright {
+    max-width: 1049rem;
+    margin-inline: auto;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12rem;
+    line-height: 110%;
+    color: var(--c-secondary);
+    border-top: 1rem solid var(--caption--label-text);
+    padding-top: 20rem;
+  }
+}

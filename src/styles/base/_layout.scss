@@ -1,0 +1,55 @@
+@import "/src/styles/helpers/_mixins.scss";
+html {
+  font-size: 1px;
+
+  @include mobile {
+    font-size: 0.8px;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-size: 16rem;
+  font-family: var(--font-family);
+  background: var(--background);
+  color: var(--text);
+}
+
+.container {
+  max-width: 1280rem;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.pd-section {
+  padding: 80rem 115rem;
+}
+
+h3 {
+  font-family: var(--second-family);
+font-weight: 600;
+font-size: 38rem;
+line-height: 120%;
+text-transform: capitalize;
+}
+
+h4 {
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 22rem;
+line-height: 160%;
+text-transform: capitalize;
+}
+
+h5 {
+  font-family: var(--second-family);
+font-weight: 600;
+font-size: 22rem;
+line-height: 140%;
+text-transform: capitalize;
+}

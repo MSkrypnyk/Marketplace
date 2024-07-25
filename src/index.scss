@@ -1,0 +1,21 @@
+// base
+@import "styles/base/layout";
+@import "styles/base/scroll";
+
+// helpers
+@import "styles/helpers/vars";
+@import "styles/helpers/reset";
+@import "styles/helpers/mixins";
+
+// shared
+@import "shared/ui/Header/Header.scss";
+@import "shared/ui/Footer/Footer.scss";
+@import "shared/ui/Logo/Logo.scss";
+@import "shared/ui/SubscribeForm/SubscribeForm.scss";
+@import "shared/icons/icons.scss";
+
+
+
+// pages
+@import "pages/home/Home.scss";
+ 

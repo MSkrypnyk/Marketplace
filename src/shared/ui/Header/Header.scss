@@ -1,0 +1,33 @@
+.header {
+  padding: 20rem 50rem;
+  display: flex;
+  align-items: center;
+
+  &__logo {
+    margin-right: auto;
+  }
+  
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 50rem;
+    margin-right: 28rem;
+  }
+
+  &__a {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text);
+  }
+
+  &__sign {
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+    padding: 19rem 30rem;
+    border-radius: 20rem;
+    background: var(--call-to-action);
+  }
+}

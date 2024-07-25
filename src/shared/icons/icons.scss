@@ -1,0 +1,30 @@
+.logo-icon path,
+.rocket-icon path {
+  fill: var(--call-to-action);
+}
+.market-icon path,
+.started-icon path,
+.sign-icon path {
+  fill: var(--text);
+}
+
+.discord-icon path,
+.youtube-icon path,
+.instagram-icon path {
+  fill: var(--caption--label-text);
+}
+
+.twitter-icon path {
+  stroke: var(--caption--label-text);
+}
+
+.basketball-icon path,
+.camera-icon path,
+.magic-icon path,
+.music-icon path,
+.planet-icon path,
+.video-icon path,
+.swatches-icon path,
+.paint-icon path {
+  stroke: var(--text);
+}

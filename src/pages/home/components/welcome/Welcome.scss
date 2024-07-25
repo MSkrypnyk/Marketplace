@@ -1,0 +1,104 @@
+.welcome {
+  display: flex;
+  gap: 30rem;
+
+  &__title {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 67rem;
+    line-height: 110%;
+    text-transform: capitalize;
+    margin-bottom: 20rem;
+  }
+
+  &__desc {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22rem;
+    line-height: 160%;
+    text-transform: capitalize;
+    margin-bottom: 30rem;
+  }
+
+  &__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12rem;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16rem;
+    line-height: 140%;
+    text-align: center;
+    color: var(--text);
+    padding: 19rem 50rem;
+    background: var(--call-to-action);
+    border-radius: 20rem;
+    margin-bottom: 30rem;
+  }
+
+  &__group {
+    display: flex;
+    align-items: center;
+    gap: 30rem;
+  }
+
+  &__date {
+    display: flex;
+    flex-direction: column;
+
+    &-desc {
+      font-weight: 700;
+      font-size: 28rem;
+      line-height: 140%;
+      text-transform: capitalize;
+    }
+
+    &-title {
+      font-family: var(--second-family);
+      font-weight: 400;
+      font-size: 23rem;
+      line-height: 160%;
+      text-transform: capitalize;
+    }
+  }
+
+  &__img {
+    flex-shrink: 0;
+    max-width: 510rem;
+    width: 100%;
+    border-radius: 20px;
+    background: var(--background---secondary);
+
+    &-title {
+      font-family: var(--second-family);
+      font-weight: 600;
+      font-size: 22rem;
+      line-height: 140%;
+      text-transform: capitalize;
+      padding: 22rem 20rem 10rem 20rem;
+    }
+
+    &-space {
+      border-radius: 20rem 20rem 0 0;
+      max-height: 401rem;
+      width: 100%;
+    }
+
+    &-character {
+      display: flex;
+      align-items: center;
+      gap: 12rem;
+      font-family: var(--second-family);
+      font-weight: 400;
+      font-size: 16rem;
+      line-height: 140%;
+      padding: 0 20rem 22rem 20rem;
+    }
+    &-character img {
+      width: 24rem;
+      height: 24rem;
+      flex-shrink: 0;
+      border-radius: 100%;
+    }
+  }
+}
